@@ -26,6 +26,8 @@ const Add = ({ defaultValues, handleSubmit }) => {
 
   });
   const [handleDateChangeCalled, setHandleDateChangeCalled] = useState(false);
+  const [handleTimeChangeCalled, setHandleTimeChangeCalled] = useState(false);
+
 
 
 
@@ -188,14 +190,18 @@ const Add = ({ defaultValues, handleSubmit }) => {
 
   //ensures that default time is set on page start
   useEffect(() => {
-    handleEndTimeChange({
-      target: { value: '17:00' },
-    });
+    if (!handleTimeChangeCalled) {
+      handleEndTimeChange({
+        target: { value: '17:00' },
+      });
+      setHandleTimeChangeCalled(true); // Set to true once it's called once
+
+    }
 
 
 
 
-  }, [handleEndTimeChange]);
+  }, [handleEndTimeChange,handleTimeChangeCalled]);
 
 
   //ensures that default date is set on page start
@@ -256,7 +262,7 @@ const Add = ({ defaultValues, handleSubmit }) => {
 
 
 
-     
+
 
 
 

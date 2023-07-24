@@ -28,16 +28,15 @@ Ensure that you have MySQL installed and running on your system.
 2. date (varchar(45)) Not NULL
 3. time_range (varchar(45)) Not NULL
 
-- Update the database configuration in the server/server.js file with your MySQL credentials:
+-  The server also creates a table for use if you do not want your custom DataBase and table. Update the database configuration in the server/server.js file with your MySQL credentials:
 
 ```
 const mysql = require('mysql');
 
 const connection = mysql.createConnection({
   host: 'localhost',
-  user: 'your-mysql-username',
+  user: 'root',
   password: 'your-mysql-password',
-  database: 'your-database-name',
 });
 
 ```
