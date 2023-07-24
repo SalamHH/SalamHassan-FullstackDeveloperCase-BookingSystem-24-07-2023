@@ -14,6 +14,8 @@ Follow these steps to run the project locally.
 ``` git clone https://github.com/SalamHH/bookingAppollo.git ```
 
 2. Backend Setup
+
+   
 **2.1 Install dependencies**
 Navigate to the server folder and install the required Node.js packages:
 
@@ -50,10 +52,13 @@ The backend server should now be running on http://localhost:8800.
 
 
 3. Frontend Setup
+
+
 **3.1 Install dependencies**
 Navigate to the client folder and install the required packages:
 
 ``` cd server ```
+
 ``` npm install ```
 
 

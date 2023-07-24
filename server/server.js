@@ -26,6 +26,9 @@ const connection = mysql.createConnection({
     user: 'root',
     password: 'your_password',
   });
+    password: 'yourPassword',
+    database: 'booking',
+});
 
 
   connection.connect((err) => {
