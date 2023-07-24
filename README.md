@@ -20,7 +20,7 @@ Follow these steps to run the project locally.
 Navigate to the server folder and install the required Node.js packages:
 
 ``` cd server ```
-``` npm install ```
+``` npm install express cors mysql body-parser ```
 
 **2.2 Database configuration**
 Ensure that you have MySQL installed and running on your system.
@@ -59,7 +59,7 @@ Navigate to the client folder and install the required packages:
 
 ``` cd server ```
 
-``` npm install ```
+``` npm install axios react-router-dom react-datepicker ```
 
 
 **3.2 Run Frontend**
