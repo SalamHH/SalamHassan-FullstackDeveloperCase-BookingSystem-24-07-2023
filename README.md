@@ -9,18 +9,18 @@ The following versions were used during development:
 ## Gettting Started
 Follow these steps to run the project locally.
 
-1. Clone the repository
+**1. Clone the repository**
 
 ``` git clone https://github.com/SalamHH/bookingAppollo.git ```
 
-2. Backend Setup
+**2. Backend Setup**
 
    
 **2.1 Install dependencies**
 Navigate to the server folder and install the required Node.js packages:
 
 ``` cd server ```
-``` npm install express cors mysql body-parser ```
+``` npm install ```
 
 **2.2 Database configuration**
 Ensure that you have MySQL installed and running on your system.
@@ -59,7 +59,7 @@ Navigate to the client folder and install the required packages:
 
 ``` cd server ```
 
-``` npm install axios react-router-dom react-datepicker ```
+``` npm install ```
 
 
 **3.2 Run Frontend**
