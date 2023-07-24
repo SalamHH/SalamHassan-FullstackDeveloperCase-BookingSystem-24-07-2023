@@ -1,0 +1,127 @@
+/* CSS for Navbar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+  
+  
+  
+  /* Add some CSS to style the green timeslot boxes */
+  /* Additional styling for the form */
+  .form {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 300px;
+  }
+  
+  .form h1 {
+    text-align: center;
+  }
+  
+  .form a {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form h2 {
+    margin-top: 20px;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form input[type="time"] {
+    width: 20%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .form p {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .form button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #555;
+  }
+  
+  .form .booking {
+    margin-top: 20px;
+  }
+  
+  .form .book {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .form .book h2 {
+    margin-bottom: 5px;
+  }
+  
+  .form .book h3 {
+    margin-top: 10px;
+  }
+  
+  .form .book p {
+    margin: 5px 0;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .form .book p:last-child {
+    margin-bottom: 0;
+    color: #000;
+  }
+  
+  .form .book p:nth-child(2) {
+    color: #000;
+  }
+  
+  .form .book p:nth-child(2)::before {
+    content: "Time Range: ";
+    font-weight: bold;
+  }
+  
