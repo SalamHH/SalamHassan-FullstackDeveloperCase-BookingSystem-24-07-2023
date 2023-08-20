@@ -1,4 +1,4 @@
-# bookingAppollo
+# bookingApp
 Booking system for a single meeting room
 
 ## Prerequisites
