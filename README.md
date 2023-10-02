@@ -11,8 +11,6 @@ Follow these steps to run the project locally.
 
 **1. Clone the repository**
 
-``` git clone https://github.com/SalamHH/SalamHassan-FullstackDeveloperCase-BookingSystem-24-07-2023.git ```
-
 **2. Backend Setup**
 
    
